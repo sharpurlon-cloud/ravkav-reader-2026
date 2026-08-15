@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-08-14T22:15:25.630410",
+  "project_dir": ".",
+  "output_apk": "RavKavCardReader_CryptoAnalysis_AUTH-2026-001.apk",
+  "output_exists": true,
+  "output_size": 10201,
+  "keystore": "readerapp.keystore",
+  "keystore_exists": true,
+  "manifest": "AndroidManifest.xml",
+  "manifest_exists": true,
+  "source_files": [
+    "src\\com\\unicapitalgroup\\ravkavreader\\CryptoAnalyzer.java",
+    "src\\com\\unicapitalgroup\\ravkavreader\\MainActivity.java"
+  ]
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application -->
+    <string name="app_name">RavKav Card Reader v2.0</string>
+    <string name="app_version">2.0.0-AUTH-2026-001</string>
+
+    <!-- Status Messages -->
+    <string name="status_waiting">🔍 Waiting for NFC card...</string>
+    <string name="status_reading">📡 Reading card...</string>
+    <string name="status_complete">✅ Read complete</string>
+    <string name="status_error">❌ Error occurred</string>
+
+    <!-- NFC Messages -->
+    <string name="nfc_not_available">No NFC adapter found</string>
+    <string name="nfc_disabled">NFC is disabled</string>
+    <string name="nfc_not_supported">Device does not support ISO-DEP</string>
+
+    <!-- Card Messages -->
+    <string name="card_detected">Card detected: %s</string>
+    <string name="card_reading_env">Reading Environment...</string>
+    <string name="card_reading_counters">Reading Counters...</string>
+    <string name="card_reading_contracts">Reading Contracts...</string>
+
+    <!-- Button Labels -->
+    <string name="btn_retry">Tap another card</string>
+    <string name="btn_close">Close</string>
+
+    <!-- Development -->
+    <string name="dev_mode">Developer Mode: ON</string>
+    <string name="build_date">Build: %s</string>
+    <string name="device_info">Device: %s (Android %d)</string>
+</resources>

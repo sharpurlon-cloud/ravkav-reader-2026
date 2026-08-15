@@ -1,0 +1,113 @@
+[2026-08-14 22:01:10] [INFO] ======================================================================
+[2026-08-14 22:01:10] [INFO] RavKavCardReader Deployment and Testing
+[2026-08-14 22:01:10] [INFO] ======================================================================
+[2026-08-14 22:01:10] [INFO] Searching for ADB...
+[2026-08-14 22:01:10] [INFO] Found ADB: C:\Users\HP OMNIBOOK\AppData\Local\Android\Sdk\platform-tools\adb.exe
+[2026-08-14 22:01:10] [INFO] Checking for connected devices...
+[2026-08-14 22:01:10] [INFO] ADB Devices Output:
+[2026-08-14 22:01:10] [INFO]   List of devices attached
+[2026-08-14 22:01:10] [INFO]   R58NA4C10DE	device
+[2026-08-14 22:01:10] [INFO] Found 1 device(s)
+[2026-08-14 22:01:10] [INFO] Installing APK on device: R58NA4C10DE
+[2026-08-14 22:01:10] [INFO] Running: C:\Users\HP OMNIBOOK\AppData\Local\Android\Sdk\platform-tools\adb.exe -s R58NA4C10DE install -r RavKavCardReader_CryptoAnalysis_AUTH-2026-001.apk
+[2026-08-14 22:01:14] [INFO] Performing Streamed Install
+Success
+
+[2026-08-14 22:01:14] [INFO] APK installed successfully
+[2026-08-14 22:01:14] [INFO] Clearing logcat...
+[2026-08-14 22:01:14] [INFO] Logcat cleared
+[2026-08-14 22:01:14] [INFO] Launching app: com.unicapitalgroup.ravkavreader.MainActivity
+[2026-08-14 22:01:14] [INFO] Running: C:\Users\HP OMNIBOOK\AppData\Local\Android\Sdk\platform-tools\adb.exe -s R58NA4C10DE shell am start -n com.unicapitalgroup.ravkavreader/.MainActivity
+[2026-08-14 22:01:14] [INFO] Starting: Intent { cmp=com.unicapitalgroup.ravkavreader/.MainActivity }
+
+[2026-08-14 22:01:14] [INFO] App launched successfully
+[2026-08-14 22:01:14] [INFO] Waiting for card read (timeout: 60s)...
+[2026-08-14 22:01:14] [INFO] Please place a Rav-Kav card on the device now...
+[LOGCAT] --------- beginning of main
+[LOGCAT] --------- beginning of system
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: SELECT ok. AID response: 6F228408315449432E494341A516BF0C13C7080000000079E41BB75307063B0706150102
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: === ENVIRONMENT ===
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: raw: 06EC240000004A09840900000000000000000000000000000000000000
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: EnvApplicationVersionNumber = 0
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: EnvCountryId                = 886
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: EnvIssuerId                 = 18
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: EnvApplicationNo            = 0
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: EnvIssuingDate              = 12.12.2022
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: EnvEndDate                  = 31.12.2030
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: EnvPayMethod                = 1
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: === COUNTERS ===
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: raw: 0000000000000000000000000000000000000000000000000000000000
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: 9 counters (3 bytes each, big-endian):
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:   counter[0] = 0   (balance = 0.00 NIS)
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:   counter[1] = 0
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:   counter[2] = 0
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:   counter[3] = 0
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:   counter[4] = 0
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:   counter[5] = 0
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:   counter[6] = 0
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:   counter[7] = 0
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:   counter[8] = 0
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: === CONTRACTS (8 slots) ===
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: (all 8 contract slots are empty)
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: === EVENTS / SPECIAL EVENTS (raw only, not decoded in this version) ===
+[LOGCAT] 08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: event[1]: 02403D866968F80000000EEEEEEEE207E9000000000000000000000000
+[LOGCAT] 08-14 22:08:52.637 12426 15382 W RavKavReaderPoC: NFC I/O error
+[2026-08-14 22:08:54] [INFO] Parsing crypto analysis results...
+[2026-08-14 22:08:54] [INFO] Extracting card data...
+[2026-08-14 22:08:54] [INFO] Saving results to crypto_analysis_results.json...
+[2026-08-14 22:08:54] [INFO] Results saved: crypto_analysis_results.json
+[2026-08-14 22:08:54] [INFO] ======================================================================
+[2026-08-14 22:08:54] [INFO] Testing Complete
+[2026-08-14 22:08:54] [INFO] ======================================================================
+[2026-08-14 22:08:54] [INFO] 
+CRYPTO ANALYSIS SUMMARY:
+{
+  "encryption_detected": false,
+  "cipher_type": null,
+  "block_size": null,
+  "key_length": null,
+  "mac_type": null,
+  "mac_size": null,
+  "padding_scheme": null,
+  "challenge_pattern": null,
+  "confidence": null,
+  "raw_data": [
+    "--------- beginning of main",
+    "--------- beginning of system",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: SELECT ok. AID response: 6F228408315449432E494341A516BF0C13C7080000000079E41BB75307063B0706150102",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: === ENVIRONMENT ===",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: raw: 06EC240000004A09840900000000000000000000000000000000000000",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: EnvApplicationVersionNumber = 0",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: EnvCountryId                = 886",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: EnvIssuerId                 = 18",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: EnvApplicationNo            = 0",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: EnvIssuingDate              = 12.12.2022",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: EnvEndDate                  = 31.12.2030",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: EnvPayMethod                = 1",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: === COUNTERS ===",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: raw: 0000000000000000000000000000000000000000000000000000000000",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: 9 counters (3 bytes each, big-endian):",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:   counter[0] = 0   (balance = 0.00 NIS)",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:   counter[1] = 0",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:   counter[2] = 0",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:   counter[3] = 0",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:   counter[4] = 0",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:   counter[5] = 0",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:   counter[6] = 0",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:   counter[7] = 0",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:   counter[8] = 0",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: === CONTRACTS (8 slots) ===",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: (all 8 contract slots are empty)",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC:",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: === EVENTS / SPECIAL EVENTS (raw only, not decoded in this version) ===",
+    "08-14 22:01:14.686  8826 14739 I RavKavReaderPoC: event[1]: 02403D866968F80000000EEEEEEEE207E9000000000000000000000000",
+    "08-14 22:08:52.637 12426 15382 W RavKavReaderPoC: NFC I/O error"
+  ]
+}

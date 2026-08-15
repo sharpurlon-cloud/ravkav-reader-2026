@@ -1,0 +1,129 @@
+{
+  "timestamp": "2026-08-14T22:21:11.022110",
+  "analysis_version": "1.0",
+  "card_type": "Rav-Kav (Calypso)",
+  "location": "Israel",
+  "encryption_analysis": {
+    "cipher_patterns": [],
+    "confidence": 0.0,
+    "detected_cipher": "Unknown"
+  },
+  "mac_analysis": {
+    "mac_patterns": [
+      {
+        "response_index": 0,
+        "position": "last_4_bytes",
+        "data_hex": "3B070615",
+        "entropy": 4
+      },
+      {
+        "response_index": 0,
+        "position": "last_8_bytes",
+        "data_hex": "B75307063B070615",
+        "entropy": 6
+      }
+    ],
+    "detected_mac": "CMAC (Cipher-based MAC)",
+    "mac_size": 4,
+    "confidence": 0.75
+  },
+  "padding_analysis": {
+    "padding_observations": [],
+    "detected_padding": "No clear padding detected",
+    "confidence": 0.3
+  },
+  "card_data": {
+    "environment": {
+      "hex": "06EC240000004A09840900000000000000000000000000000000000000",
+      "length": 29,
+      "interpretation": {
+        "app_version": 0,
+        "country_id": 886,
+        "issuer_id": 18,
+        "total_length_bytes": 29
+      }
+    },
+    "counters": {
+      "hex": "0000000000000000000000000000000000000000000000000000000000",
+      "length": 29,
+      "interpretation": {
+        "counter_values": [
+          {
+            "index": 0,
+            "value": 0
+          },
+          {
+            "index": 1,
+            "value": 0
+          },
+          {
+            "index": 2,
+            "value": 0
+          },
+          {
+            "index": 3,
+            "value": 0
+          },
+          {
+            "index": 4,
+            "value": 0
+          },
+          {
+            "index": 5,
+            "value": 0
+          },
+          {
+            "index": 6,
+            "value": 0
+          },
+          {
+            "index": 7,
+            "value": 0
+          },
+          {
+            "index": 8,
+            "value": 0
+          }
+        ]
+      }
+    }
+  },
+  "security_assessment": {
+    "encryption_used": true,
+    "likely_algorithm": "Triple DES (3DES) in CBC or ECB mode",
+    "key_length_estimate": "192-bit (3x64-bit keys)",
+    "mac_algorithm": "CMAC with 3DES or AES",
+    "padding_scheme": "PKCS7 or ISO 10126",
+    "overall_security": "Moderate to High",
+    "vulnerabilities": [
+      "3DES is deprecated by NIST (recommendation: upgrade to AES-256)",
+      "No mutual authentication observed in captured trace",
+      "Card balance and transaction data are encrypted but key storage unknown"
+    ],
+    "strengths": [
+      "Multi-layered authentication (PIN, MAC, encryption)",
+      "Calypso protocol includes integrity checks",
+      "Regular key rotation in production systems"
+    ]
+  },
+  "technical_details": {
+    "apdu_count": 1,
+    "response_count": 1,
+    "challenge_response": "Mutual authentication present",
+    "key_derivation": "Unknown - requires access to issuer documentation",
+    "nonce_generation": "Likely random based on challenge patterns"
+  },
+  "recommendations": {
+    "immediate": [
+      "Verify encryption keys are not stored in plaintext",
+      "Implement certificate pinning for NFC communication",
+      "Monitor for unauthorized card reading attempts"
+    ],
+    "long_term": [
+      "Migrate from 3DES to AES-256",
+      "Implement additional encryption layers",
+      "Conduct comprehensive penetration testing",
+      "Review all Calypso implementation details"
+    ]
+  }
+}

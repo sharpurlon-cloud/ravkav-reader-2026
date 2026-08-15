@@ -1,0 +1,60 @@
+08-14 18:21:01.478 I/RavKavReaderPoC(10722): ContractTariffCounter       = 3
+08-14 18:21:01.478 I/RavKavReaderPoC(10722): ContractTariff              = 6
+08-14 18:21:01.478 I/RavKavReaderPoC(10722): ContractSaleDevice (kiosk)  = 4050
+08-14 18:21:01.478 I/RavKavReaderPoC(10722): ContractSaleNumberDaily     = 668
+08-14 18:21:01.478 I/RavKavReaderPoC(10722): ContractJourneyInterchanges = 1
+08-14 18:21:01.478 I/RavKavReaderPoC(10722): ContractValidityStartDate   = 14.8.2026
+08-14 18:21:01.478 I/RavKavReaderPoC(10722): ContractSaleDate            = 14.8.2026
+08-14 18:21:01.478 I/RavKavReaderPoC(10722): ContractValidityEndDate     = (not encoded on card -- resolved by HopOn from its product catalog)
+08-14 18:21:01.478 I/RavKavReaderPoC(10722): Predefined (catalog product id) = 200
+08-14 18:21:01.479 I/RavKavReaderPoC(10722): EttCode                          = 66
+08-14 18:21:01.479 I/RavKavReaderPoC(10722): 
+08-14 18:21:01.479 I/RavKavReaderPoC(10722): 
+08-14 18:21:01.479 I/RavKavReaderPoC(10722): === EVENTS / SPECIAL EVENTS (raw only, not decoded in this version) ===
+08-14 18:21:01.479 I/RavKavReaderPoC(10722): event[1]: 01E23BBDAC1C1800000004EEEEEEE207E9000000000000000000000000
+08-14 18:21:01.479 I/RavKavReaderPoC(10722): event[2]: 02403D8CCD3E400000000EEEEEEEE207E9000000000000000000000000
+08-14 18:21:08.497 I/RavKavReaderPoC(10722): SELECT ok. AID response: 6F228408315449432E494341A516BF0C13C7080000000079FDBB8B5307063D0706150102
+08-14 18:21:08.497 I/RavKavReaderPoC(10722): 
+08-14 18:21:08.497 I/RavKavReaderPoC(10722): === ENVIRONMENT ===
+08-14 18:21:08.497 I/RavKavReaderPoC(10722): raw: 06EC240000004B3F88C100000000000000000000000000000000000000
+08-14 18:21:08.497 I/RavKavReaderPoC(10722): EnvApplicationVersionNumber = 0
+08-14 18:21:08.497 I/RavKavReaderPoC(10722): EnvCountryId                = 886
+08-14 18:21:08.497 I/RavKavReaderPoC(10722): EnvIssuerId                 = 18
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): EnvApplicationNo            = 0
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): EnvIssuingDate              = 16.5.2023
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): EnvEndDate                  = 31.5.2031
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): EnvPayMethod                = 1
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): 
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): === COUNTERS ===
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): raw: 0003E80000000000000000000000000000000000000000000000000000
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): 9 counters (3 bytes each, big-endian):
+08-14 18:21:08.498 I/RavKavReaderPoC(10722):   counter[0] = 1000   (balance = 10.00 NIS)
+08-14 18:21:08.498 I/RavKavReaderPoC(10722):   counter[1] = 0
+08-14 18:21:08.498 I/RavKavReaderPoC(10722):   counter[2] = 0
+08-14 18:21:08.498 I/RavKavReaderPoC(10722):   counter[3] = 0
+08-14 18:21:08.498 I/RavKavReaderPoC(10722):   counter[4] = 0
+08-14 18:21:08.498 I/RavKavReaderPoC(10722):   counter[5] = 0
+08-14 18:21:08.498 I/RavKavReaderPoC(10722):   counter[6] = 0
+08-14 18:21:08.498 I/RavKavReaderPoC(10722):   counter[7] = 0
+08-14 18:21:08.498 I/RavKavReaderPoC(10722):   counter[8] = 0
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): 
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): === CONTRACTS (8 slots) ===
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): -- record 1 --
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): raw: 0ADF07AC6A907F4A9C91030270C8F000000000000000000000000000BA
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): ContractProvider            = 15
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): ContractTariffUsage         = 1
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): ContractTariffCounter       = 3
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): ContractTariff              = 6
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): ContractSaleDevice (kiosk)  = 4050
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): ContractSaleNumberDaily     = 668
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): ContractJourneyInterchanges = 1
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): ContractValidityStartDate   = 14.8.2026
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): ContractSaleDate            = 14.8.2026
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): ContractValidityEndDate     = (not encoded on card -- resolved by HopOn from its product catalog)
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): Predefined (catalog product id) = 200
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): EttCode                          = 66
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): 
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): 
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): === EVENTS / SPECIAL EVENTS (raw only, not decoded in this version) ===
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): event[1]: 01E23BBDAC1C1800000004EEEEEEE207E9000000000000000000000000
+08-14 18:21:08.498 I/RavKavReaderPoC(10722): event[2]: 02403D8CCD3E400000000EEEEEEEE207E9000000000000000000000000

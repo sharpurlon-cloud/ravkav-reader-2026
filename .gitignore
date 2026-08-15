@@ -1,0 +1,21 @@
+# Build outputs
+build/
+.gradle/
+*.apk
+dist/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files
+*.jar
+*.zip
+*.rar
+captures/
+tools/jadx/
